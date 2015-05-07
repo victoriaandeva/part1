@@ -16,5 +16,21 @@
         </value>
       </block>
     </value>
+    <statement name="DO">
+      <block type="movement_forward" id="546">
+        <next>
+          <block type="robot_delay" id="548" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="572">
+                <field name="NUM">200</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="movement_stop" id="624"></block>
+    </next>
   </block>
 </xml>
