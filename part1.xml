@@ -1,1 +1,20 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_whileUntil" id="33" inline="false" x="123" y="67">
+    <field name="MODE">WHILE</field>
+    <value name="NUMBER">
+      <block type="logic_compare" id="181" inline="true">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="sensor_object" id="133">
+            <field name="OBJECT">LEFTFRONT</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="188">
+            <field name="NUM">75</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+</xml>
